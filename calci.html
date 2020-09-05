@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calci</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+	.box1{
+		padding:40px 40px;
+		margin:50px 50px;
+		width=250px;
+		height=250px;
+		line-height: 10px;
+		border: 2px solid black;
+		background-color: orange;
+	}
+	table{
+		width :200px;
+		line-height: 20px;
+		
+	}
+	.iobox{
+		display: inline-block;
+		line-height: 10px;
+	}
+	body{
+		border: 2px solid black;
+
+	}
+
+	</style>
+</head>
+<body>
+	<h1 align="center">calculator</h1>
+	<div class="box1" >
+		
+		<div class="iobox">
+		<lable for="iodisa">Input firstno. :</lable>
+		<input type="text" name="display" id="iodisa"><br><br>
+		<lable for="iodisb">second firstno. :</lable>
+		<input type="text" name="display" id="iodisb"><br><br>
+		<lable for="iodiso">output :</lable>
+		<input type="text" id="iodiso">
+	    </div><br>
+	    <br>
+	
+		<table>
+		 
+
+		 <div class="container1">
+
+			<!--<tr >
+				<td><button  name="blank1" id="7butt" onclick="ip(7)">7</button></td>
+                <td><button  name="blank1" id="8butt" onclick="ip(8)">8</button></td>
+                <td><button  name="blank1" id="9butt" onclick="ip(9)">9</button></td>
+                
+			</tr>
+			<tr><td><button  name="blank1" id="4butt" >4</button></td>
+                <td><button name="blank1" id="5butt" >5</button></td>
+                <td><button name="blank1" id="6butt" >6</button></td>
+                <td><button name="blank1" id="abbutt">absloute</button></td>
+			</tr>
+			<tr><td><button  name="blank1" id="1butt" >1</button></td>
+                <td><button  name="blank1" id="2butt" onclick="ip(2)">2</button></td>
+                <td><button  name="blank1" id="3butt" onclick="ip(3)">3</button></td>
+                <td><button  name="blank1" id="/butt" onclick="ip('/')">/</button></td>
+			</tr>!-->
+			<tr>
+                <td><button  name="blank1" id="/butt" onclick="division()">/</button></td>
+                <td><button  name="blank1" id="pbutt" onclick="percen()">%</button></td>
+                <td><button  name="blank1" id="rbutt" onclick="sqroot()">sqroot</button></td>
+                <td><button name="blank1" id="abbutt" onclick="absloute()" onmouseover="function fd(){document.getElementById('iodisb').disabled}">absloute</button></td>
+			</tr>
+			<tr><td><button  name="blank1" id="adbutt" onclick="addition()">+</button></td>
+                <td><button  name="blank1" id="sutt" onclick="subtraction()">-</button></td>
+                <td><button  name="blank1" id="sutt" onclick="mul()">*</button></td>
+                
+            </tr>
+
+        </div>
+
+		</table>
+
+	</div>
+
+</body>
+<script type="text/javascript" src="myscripts.js">
+  
+	
+</script>
+</html>
